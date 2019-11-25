@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopbarComponent } from './views/general/topbar/topbar.component';
+import { LeftsidebarComponent } from './views/general/leftsidebar/leftsidebar.component';
+import { DashboardComponent } from './views/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopbarComponent,
+    LeftsidebarComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
